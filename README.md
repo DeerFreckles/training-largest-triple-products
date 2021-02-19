@@ -60,3 +60,16 @@ n = 5
 arr = [2, 1, 2, 1, 2]
 output = [-1, -1, 4, 4, 8]
 The 3rd element of output is 2*2*1 = 4, the 4th is 2*2*1 = 4, and the 5th is 2*2*2 = 8.
+
+---
+**INSTRUCTIONS:**
+
+Fork this repo to your own. Create a solution to the problem. The test cases will prove whether your solution is correct.
+
+
+**MY IDE IS THROWING ERRORS WHEN FIRST LOADING THIS CODE**
+
+That's right. It's incomplete. Its your job to fill in the blanks.
+
+**WHY DOES THIS README LOOK TERRIBLE**
+fine. do a fork/ readme fix up / PR to here and I'll accept it.
