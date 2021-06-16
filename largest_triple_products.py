@@ -1,26 +1,15 @@
-"""
-
-
-"""
-
-
 import math
 
-
-# Add any extra import statements you may need here
-
-
-# Add any helper functions you may need here
-
-
 def findMaxProduct(arr):
-
-
-# Write your code here
-
-
-# These are the tests we use to determine if the solution is correct.
-# You can add your own at the bottom, but they are otherwise not editable!
+    out = []
+    for i in range(len(arr)):
+        if i < 2:
+            out.append(-1)
+        else:
+            tmp = arr[0:i+1]
+            tmp.sort(reverse=True)
+            out.append(math.prod(tmp[0:3]))
+    return out
 
 def printInteger(n):
     print('[', n, ']', sep='', end='')
